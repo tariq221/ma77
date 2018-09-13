@@ -7,7 +7,7 @@ const GOOGLE_API_KEY = 'AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8';
 const youtube = new YouTube(GOOGLE_API_KEY);
 
 const queue = new Map();
-const PREFIX = '*';
+const PREFIX = '-';
 client.on('warn', console.warn);
 
 client.on('error', console.error);
@@ -58,7 +58,7 @@ client.on('ready', function(){
  game: { 
     type: 1,
      url: 'https://www.twitch.tv/skwadraa',
-    name: 'I am good',
+    name: 'I AM BAD',
     application_id: '477187715658547201',
      assets: {
          large_image:   `${s[Math.floor(Math.random() * s.length)]}`,
