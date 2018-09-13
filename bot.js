@@ -29,11 +29,11 @@ LET'S GO!
   client.user.setStatus("dnd");
 
 });
-/*
+
 client.on('ready', function(){
     client.user.setStatus("dnd");
     var ms = 10000 ;
-    var setGame = [`yooooo`,`lolll`,`fuck klab idk`];
+    var setGame = [`I AM BAD`,`DolPinO_18|`,`-play`];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -47,7 +47,7 @@ client.on('ready', function(){
         client.user.setGame(setGame[i],`https://www.twitch.tv/skwadraa`);
     }, ms);10000
 });
-*/
+/*
 client.on('ready', function(){
  console.log(`Logged in as ${client.user.tag}!`);
     
@@ -70,7 +70,7 @@ client.on('ready', function(){
 
     }, 5000);
 
-});
+});*/
 client.on('disconnect', () => console.log('I just disconnected, making sure you know, I will reconnect now...'));
 
 client.on('reconnecting', () => console.log('I am reconnecting now!'));
