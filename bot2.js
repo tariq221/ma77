@@ -161,7 +161,7 @@ async function handleVideo(video, msg, voiceChannel, playlist = false) {
         title: Util.escapeMarkdown(video.title),
         url: `https://www.youtube.com/watch?v=${video.id}`,
         time:`${video.duration.hours}:${video.duration.minutes}:${video.duration.seconds}`,
-        eyad:`${video.thumbnails.high.url}`,
+        xnx:`${video.thumbnails.high.url}`,
         best:`${video.channel.title}`,
         bees:`${video.raw.snippet.publishedAt}`,
         shahd:`${video.raw.kind}`,
@@ -237,8 +237,7 @@ function play(guild, song) {
   .addField('Like👍 :' , `${fuck.likeCount}`, true)
   .addField('dislike👎 :' , `${fuck.dislikeCount}`, true)
   .addField('comments :' , `${fuck.commentCount}`, true)
-    .setImage(`${song.eyad}`)
-    .setThumbnail('http://cdn.akhbaar24.com/430e061a-f89a-43c7-86d9-82fae5f7c495.jpg')
+    .setThumbnail(`${song.xnx}`)
     .setColor('#ff0000')
     .setTimestamp()
     }).then(love => {
@@ -266,8 +265,7 @@ function play(guild, song) {
   .addField('Like👍 :' , `${yyyy[msg.guild.id].like}`, true)
   .addField('dislike👎 :' , `${fuck.dislikeCount}`, true)
   .addField('comments :' , `${fuck.commentCount}`, true)
-    .setImage(`${song.eyad}`)
-    .setThumbnail('http://cdn.akhbaar24.com/430e061a-f89a-43c7-86d9-82fae5f7c495.jpg')
+    .setThumbnail(`${song.xnx}`)
     .setColor('#ff0000')
     .setTimestamp()
 });
@@ -286,8 +284,7 @@ function play(guild, song) {
   .addField('Like👍 :' , `${fuck.likeCount}`, true)
   .addField('dislike👎 :' , `${yyyy[msg.guild.id].dislike}`, true)
   .addField('comments :' , `${fuck.commentCount}`, true)
-    .setImage(`${song.eyad}`)
-    .setThumbnail('http://cdn.akhbaar24.com/430e061a-f89a-43c7-86d9-82fae5f7c495.jpg')
+    .setThumbnail(`${song.xnx}`)
     .setColor('#ff0000')
     .setTimestamp()
 });
@@ -304,8 +301,7 @@ function play(guild, song) {
   .addField('Like👍 :' , `${fuck.likeCount}`, true)
   .addField('dislike👎 :' , `${fuck.dislikeCount}`, true)
   .addField('comments :' , `${fuck.commentCount}`, true)
-    .setImage(`${song.eyad}`)
-    .setThumbnail('http://cdn.akhbaar24.com/430e061a-f89a-43c7-86d9-82fae5f7c495.jpg')
+     .setThumbnail(`${song.xnx}`)
     .setColor('#ff0000')
     .setTimestamp()
 });
