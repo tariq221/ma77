@@ -23,6 +23,7 @@ client.on('ready', () => {
     console.log(`in ${client.guilds.size} servers `)
     console.log(`[Codes] ${client.users.size}`)
     client.user.setStatus("idle")
+ client.user.setGame(`☆ Store Games ☆`)
 });
 
 const prefix = "$"
