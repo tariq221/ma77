@@ -33,7 +33,7 @@ LET'S GO!
 client.on('ready', function(){
     client.user.setStatus("dnd");
     var ms = 10000 ;
-    var setGame = [`I AM BAD`,`DolPinO_18|`,`-play`];
+    var setGame = [`✪ [ Ms-Squad ] ✪`,`-play`];
     var i = -1;
     var j = 0;
     setInterval(function (){
