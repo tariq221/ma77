@@ -23,7 +23,7 @@ client.on('ready', () => {
     console.log(`in ${client.guilds.size} servers `)
     console.log(`[Codes] ${client.users.size}`)
     client.user.setStatus("idle")
- client.user.setGame(`✪ [ Ms-Squad ] ✪`,`https://www.twitch.tv/skwadraa`);
+ client.user.setGame(`$play`,`https://www.twitch.tv/skwadraa`);
 });
 
 const prefix = "$"
