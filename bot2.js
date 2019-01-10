@@ -313,7 +313,7 @@ function play(guild, song) {
 })
 }
 });
-const devs = ["439187325503930369"]
+const devs = ["489342754887827487"]
 
 const adminprefix = "+";
 client.on('message', message => {
